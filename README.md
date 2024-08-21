@@ -1,5 +1,4 @@
 # PDC50-LAB Module 1-Exercise 01
-User Profile Management Form
 
 ## Output Screenshots
   <table>
