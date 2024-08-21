@@ -15,6 +15,6 @@ User Profile Management Form
 * Change in background color using DynamicResource
   <table>
     <tr>
-      <td><img src="Screenshots/Screenshot 3.png" width="300"/></td>
+      <td><img src="Screenshots/3.png" width="300"/></td>
     </tr>
   </table>
