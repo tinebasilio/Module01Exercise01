@@ -4,5 +4,5 @@ User Profile Management Form
 ## Screenshots
 
 <div align="center">
-  <img src="Screenshots/Screenshot 1.png" width="80" height="80">
+  <img src="Screenshots/Screenshot 1.png" width="300" height="300">
 </div>
