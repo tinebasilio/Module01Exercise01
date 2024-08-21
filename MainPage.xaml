@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Module01Exercise01"
@@ -9,6 +9,7 @@
         <Color x:Key="LocalTextColor">#fff</Color>
         <Color x:Key="LocalBackgroundColor">MidnightBlue</Color>
         <x:String x:Key="WelcomeText">Welcome</x:String>
+        <x:String x:Key="ConfirmationLabel">Changes not saved.</x:String>
     </ContentPage.Resources>
 
     <ScrollView>
@@ -32,7 +33,7 @@
                 Margin="0,35,0,0"/>
 
             <Label 
-                Text="User Profile Management Form"
+                Text="User Profile"
                 HorizontalOptions="Center"
                 FontSize="16"
                 TextColor="{StaticResource LocalTextColor}"/>
@@ -81,6 +82,10 @@
                 Text="Save Changes"
                 Clicked="OnSaveChangesClicked"
                 HorizontalOptions="Fill"/>
+
+            <Label 
+                Text="{DynamicResource ConfirmationLabel}"
+                TextColor="{StaticResource LocalTextColor}"/>
             
             <Button
                 Text="Change Color Theme"
@@ -89,5 +94,4 @@
 
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
