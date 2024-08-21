@@ -2,7 +2,7 @@
 User Profile Management Form
 
 ## Output Screenshots
-  <table align="center">
+  <table>
     <tr>
       <td><img src="Screenshots/Screenshot 1.png" width="300"/></td>
       <td><img src="Screenshots/Screenshot 2.png" width="300"/></td>
